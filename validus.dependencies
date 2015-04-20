@@ -20,19 +20,19 @@
     },
     {
 	"remote": "gh",
-        "repository": "gimmeitorilltell/device_samsung_qcom_audio-caf",
+        "repository": "SlimDev/device_samsung_qcom_audio-caf",
         "target_path": "hardware/qcom/audio-caf/msm8660",
         "branch": "cm-12.1-caf-8660"
     },
     {
 	"remote": "gh",
-        "repository": "gimmeitorilltell/device_samsung_qcom_display-caf",
+        "repository": "SlimDev/device_samsung_qcom_display-caf",
         "target_path": "hardware/qcom/display-caf/msm8660",
         "branch": "cm-12.1-caf-8660"
     },
     {
 	"remote": "gh",
-        "repository": "gimmeitorilltell/device_samsung_qcom_media-caf",
+        "repository": "SlimDev/device_samsung_qcom_media-caf",
         "target_path": "hardware/qcom/media-caf/msm8660",
         "branch": "cm-12.1-caf-8660"
     },
