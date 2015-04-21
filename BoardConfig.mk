@@ -48,3 +48,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/quincyatt/bluetooth
+
+# Enable transparent compression in the build
+TARGET_TRANSPARENT_COMPRESSION_METHOD := lz4
