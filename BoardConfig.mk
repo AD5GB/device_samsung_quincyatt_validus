@@ -36,7 +36,7 @@ TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
 DEVICE_RESOLUTION := 800x1280
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_quincyatt_defconfig
+TARGET_KERNEL_CONFIG := wicked_quincyatt_defconfig
 
 # ROM toolchain
 TARGET_GCC_VERSION := 4.8
