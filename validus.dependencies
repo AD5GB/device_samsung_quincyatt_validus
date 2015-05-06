@@ -50,8 +50,8 @@
     },
     {
 	"remote": "gh",
-        "repository": "gimmeitorilltell/android_kernel_samsung_msm8660-common",
+        "repository": "AD5GB/android_kernel_samsung_msm8660-common",
         "target_path": "kernel/samsung/msm8660-common",
-        "branch": "cm-12.1"
+        "branch": "wicked"
     }
 ]
