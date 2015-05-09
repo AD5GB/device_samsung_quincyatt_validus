@@ -36,7 +36,14 @@ TARGET_BOARD_INFO_FILE ?= device/samsung/quincyatt/board-info.txt
 DEVICE_RESOLUTION := 800x1280
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_quincyatt_defconfig
+TARGET_KERNEL_CONFIG := wicked_quincyatt_defconfig
+
+# ROM toolchain
+TARGET_GCC_VERSION := 4.8
+
+# Custom Kernel Toolchain
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_OS)-x86_64/toolchain/Linaro-4.7/bin/"
 
 # Partitions
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -48,3 +55,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/quincyatt/bluetooth
+
+# Enable transparent compression in the build
+##TARGET_TRANSPARENT_COMPRESSION_METHOD := lz4

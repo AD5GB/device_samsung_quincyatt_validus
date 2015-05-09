@@ -1,0 +1,57 @@
+[
+
+    {
+    	"remote": "gh",
+        "repository": "gimmeitorilltell/device_samsung_msm8660-common",
+        "target_path": "device/samsung/msm8660-common",
+        "branch": "cm-12.1"
+    },
+    {
+	"remote": "gh",
+        "repository": "gimmeitorilltell/android_device_samsung_quincy-common",
+        "target_path": "device/samsung/quincy-common",
+        "branch": "cm-12.1"
+    },
+    {
+	"remote": "gh",
+        "repository": "gimmeitorilltell/device_samsung_qcom-common",
+        "target_path": "device/samsung/qcom-common",
+        "branch": "cm-12.1"
+    },
+    {
+	"remote": "gh",
+        "repository": "SlimDev/hardware_qcom_audio-caf",
+        "target_path": "hardware/qcom/audio-caf/msm8660",
+        "branch": "cm-12.1-caf-8660"
+    },
+    {
+	"remote": "gh",
+        "repository": "SlimDev/hardware_qcom_display-caf",
+        "target_path": "hardware/qcom/display-caf/msm8660",
+        "branch": "cm-12.1-caf-8660"
+    },
+    {
+	"remote": "gh",
+        "repository": "SlimDev/hardware_qcom_media-caf",
+        "target_path": "hardware/qcom/media-caf/msm8660",
+        "branch": "cm-12.1-caf-8660"
+    },
+    {
+	"remote": "gh",
+        "repository": "gimmeitorilltell/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "branch": "cm-12.1"
+    },
+    {
+	"remote": "gh",
+        "repository": "gimmeitorilltell/android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "branch": "cm-12.0"
+    },
+    {
+	"remote": "gh",
+        "repository": "AD5GB/android_kernel_samsung_msm8660-common",
+        "target_path": "kernel/samsung/msm8660-common",
+        "branch": "wicked"
+    }
+]
