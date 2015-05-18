@@ -45,6 +45,9 @@ TARGET_GCC_VERSION := 4.8
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_OS)-x86_64/toolchain/Linaro-4.7/bin/"
 
+# Build with compressed odex
+WITH_DEXPREOPT_COMP=true
+
 # Partitions
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00A00000
